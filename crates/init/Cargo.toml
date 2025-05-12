@@ -1,0 +1,10 @@
+[package]
+name = "init"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+unicomet-core = { path = "../core" }
+console = { workspace = true }
+dialoguer = { workspace = true }
+indicatif = { workspace = true }

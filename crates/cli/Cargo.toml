@@ -1,6 +1,11 @@
 [package]
 name = "cli"
 version = "0.1.0"
-edition = "2024"
+edition = "2021"
 
 [dependencies]
+unicomet-core = { path = "../core" }
+init = { path = "../init" }
+debugger = { path = "../debugger" }
+publisher = { path = "../publisher" }
+clap = { workspace = true }
