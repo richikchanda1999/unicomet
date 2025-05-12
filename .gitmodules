@@ -1,0 +1,3 @@
+[submodule "template/template/compound-config"]
+	path = template/template/compound-config
+	url = https://github.com/compound-finance/compound-config.git
